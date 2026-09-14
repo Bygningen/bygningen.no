@@ -1,0 +1,104 @@
+[
+  {
+    "id": "lykke",
+    "fornavn": "Lykke",
+    "etternavn": "Holst",
+    "bilder": ["lykke1.avif", "lykke2.avif", "lykke3.avif"],
+    "kontakt": {
+      "linkedin": { "brukernavn": "lykkeholst", "url": "https://www.linkedin.com/in/lykkeholst" },
+      "github": { "brukernavn": "lykkeholst", "url": "https://github.com/lykkeholst" },
+      "epost": "lykke.holst@example.com"
+    },
+    "i18n": {
+      "no": {
+        "rolle": "Frontend-utvikler",
+        "ferdigheter": ["React", "TypeScript", "Python", "UI-design"],
+        "interesser": ["boblefotball", "strikking", "brettspill"],
+        "bio": "Lykke liker å bygge brukergrensesnitt som er både pene og enkle å bruke. I bacheloroppgaven jobbet hun mest med frontend og brukertesting.",
+        "om_meg": "Jeg er en nysgjerrig person som liker å lære nye ting, enten det er et nytt rammeverk eller en ny strikkeoppskrift. På fritiden spiller jeg boblefotball med venner, noe som har lært meg at man må kunne le av seg selv."
+      },
+      "en": {
+        "rolle": "Frontend Developer",
+        "ferdigheter": ["React", "TypeScript", "Python", "UI Design"],
+        "interesser": ["bubble football", "knitting", "board games"],
+        "bio": "Lykke enjoys building interfaces that are both pretty and easy to use. In the bachelor project she mainly worked on frontend and user testing.",
+        "om_meg": "I'm a curious person who loves learning new things, whether it's a new framework or a new knitting pattern. In my free time I play bubble football with friends, which has taught me to laugh at myself."
+      }
+    }
+  },
+  {
+    "id": "markus",
+    "fornavn": "Markus",
+    "etternavn": "Berg",
+    "bilder": ["markus1.avif", "markus2.avif"],
+    "kontakt": {
+      "linkedin": { "brukernavn": "markusberg", "url": "https://www.linkedin.com/in/markusberg" },
+      "github": { "brukernavn": "mberg-dev", "url": "https://github.com/mberg-dev" },
+      "epost": "markus.berg@example.com"
+    },
+    "i18n": {
+      "no": {
+        "rolle": "Backend-utvikler",
+        "ferdigheter": ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+        "interesser": ["klatring", "brygging av øl", "sci-fi litteratur"],
+        "bio": "Markus har ansvaret for arkitektur og databasedesign i prosjektet. Han trives best med å løse tekniske problemer under overflaten."
+      },
+      "en": {
+        "rolle": "Backend Developer",
+        "ferdigheter": ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+        "interesser": ["climbing", "home brewing", "sci-fi literature"],
+        "bio": "Markus is responsible for architecture and database design in the project. He thrives on solving technical problems under the hood."
+      }
+    }
+  },
+  {
+    "id": "sana",
+    "fornavn": "Sana",
+    "etternavn": "Ahmadi",
+    "bilder": ["sana1.avif", "sana2.avif", "sana3.avif"],
+    "kontakt": {
+      "linkedin": { "brukernavn": "sanaahmadi", "url": "https://www.linkedin.com/in/sanaahmadi" },
+      "github": { "brukernavn": "sana-a", "url": "https://github.com/sana-a" },
+      "epost": "sana.ahmadi@example.com"
+    },
+    "i18n": {
+      "no": {
+        "rolle": "Prosjektleder og UX-designer",
+        "ferdigheter": ["Figma", "Scrum", "Brukertesting", "Prosjektstyring"],
+        "interesser": ["fotografi", "reising", "keramikk"],
+        "bio": "Sana har holdt trådene sammen som prosjektleder, i tillegg til å lede designarbeidet. Hun brenner for gode brukeropplevelser."
+      },
+      "en": {
+        "rolle": "Project Manager & UX Designer",
+        "ferdigheter": ["Figma", "Scrum", "User Testing", "Project Management"],
+        "interesser": ["photography", "traveling", "ceramics"],
+        "bio": "Sana has kept things together as project manager, in addition to leading the design work. She's passionate about great user experiences."
+      }
+    }
+  },
+  {
+    "id": "oliver",
+    "fornavn": "Oliver",
+    "etternavn": "Nystrøm",
+    "bilder": ["oliver1.avif", "oliver2.avif"],
+    "kontakt": {
+      "linkedin": { "brukernavn": "olivernystrom", "url": "https://www.linkedin.com/in/olivernystrom" },
+      "github": { "brukernavn": "onystrom", "url": "https://github.com/onystrom" },
+      "epost": "oliver.nystrom@example.com"
+    },
+    "i18n": {
+      "no": {
+        "rolle": "Dataingeniør",
+        "ferdigheter": ["Python", "Pandas", "Machine Learning", "SQL"],
+        "interesser": ["sjakk", "langrenn", "brettspill"],
+        "bio": "Oliver har jobbet mest med databehandling og analyse i prosjektet, og er spesielt interessert i maskinlæring."
+      },
+      "en": {
+        "rolle": "Data Engineer",
+        "ferdigheter": ["Python", "Pandas", "Machine Learning", "SQL"],
+        "interesser": ["chess", "cross-country skiing", "board games"],
+        "bio": "Oliver has mainly worked on data processing and analysis in the project, and is especially interested in machine learning."
+      }
+    }
+  }
+]
