@@ -1,14 +1,13 @@
 import { useState } from "react";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
 import {
-  Github,
-  Linkedin,
   Mail,
   ArrowUpRight,
+  SeparatorHorizontal,
 } from "lucide-react";
 import membersData from "./data/medlemmer.json";
+import { Separator } from "./components/ui/separator";
+import { Button } from "./components/ui/button";
+import { Badge } from "./components/ui/badge";
 
 type Lang = "no" | "en";
 
@@ -91,7 +90,7 @@ function MemberRow({
             <span className="font-serif text-sm tracking-wide text-[#A97C3F]">
               {number}
             </span>
-            <Separator className="flex-1 bg-[#1C2333]/10" />
+            <SeparatorHorizontal className="flex-1 bg-[#1C2333]/10" />
           </div>
           <div className="aspect-[4/5] w-full rounded-sm bg-[#1C2333]/[0.06] border border-[#1C2333]/10 flex items-center justify-center overflow-hidden">
             <span className="font-serif text-5xl text-[#1C2333]/25">
@@ -127,7 +126,6 @@ function MemberRow({
                 {locale.ferdigheter.map((skill) => (
                   <Badge
                     key={skill}
-                    variant="outline"
                     className="border-[#1C2333]/15 text-[#1C2333]/80 font-normal rounded-sm"
                   >
                     {skill}
@@ -166,7 +164,7 @@ function MemberRow({
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 text-sm text-[#1C2333]/70 hover:text-[#A97C3F] transition-colors"
             >
-              <Linkedin className="w-4 h-4" />
+              <Mail className="w-4 h-4" />
               {member.kontakt.linkedin.brukernavn}
             </a>
             <a
@@ -175,7 +173,7 @@ function MemberRow({
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 text-sm text-[#1C2333]/70 hover:text-[#A97C3F] transition-colors"
             >
-              <Github className="w-4 h-4" />
+              <Mail className="w-4 h-4" />
               {member.kontakt.github.brukernavn}
             </a>
           </div>
@@ -261,7 +259,7 @@ export default function App() {
           ))}
         </div>
 
-        <Separator className="bg-[#1C2333]/10" />
+        <SeparatorHorizontal className="bg-[#1C2333]/10" />
 
         {/* Footer */}
         <footer className="py-10 flex items-center justify-between text-sm text-[#1C2333]/50">
